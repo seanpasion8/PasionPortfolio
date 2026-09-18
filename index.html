@@ -8,13 +8,14 @@
 
   <body>
 
-    <div class="container">
+    <div class="container py-4">
 
-    <h2>Sean Andrei Pasion</h2>
+    <h2 class="mb-4">Sean Andrei Pasion</h2>
 
    <h1 id="home" class="display-4 fw-bold mt-5">
   Hi, I'm Sean Andrei Pasion
 </h1>
+      <a href="#contact" class="btn btn-primary mt-3">Contact Me</a>
 
     <h2 id="about" class="mt-5 mb-3">Who I Am</h2>
     
@@ -26,29 +27,46 @@
 
    <h2 id="skills" class="mt-5 mb-3">Skills</h2>
 
- <ul class="list-group">
-  <li class="list-group-item">Java</li>
-  <li class="list-group-item">C#</li>
-  <li class="list-group-item">SQLite</li>
-  <li class="list-group-item">Letos</li>
-  <li class="list-group-item">Apache NetBeans</li>
-</ul>
+<div class="row">
+  <div class="col-md-6">
+    <ul class="list-group mb-3">
+      <li class="list-group-item">Java</li>
+      <li class="list-group-item">C#</li>
+      <li class="list-group-item">SQLite</li>
+    </ul>
+  </div>
+  
+   <div class="col-md-6">
+    <ul class="list-group">
+      <li class="list-group-item">Letos</li>
+      <li class="list-group-item">Apache NetBeans</li>
+    </ul>
+  </div>
+</div>
 
    <h2 id="projects" class="mt-5 mb-4">Projects</h2>
 
-  <h3 class="mb-2">Kusina Supreme System with Database</h3>
-  <p>
-    A system created using Java in Apache NetBeans with a SQLite database
-    using Letos. It was designed to manage and organize information for
-    the Kusina Supreme system.
-  </p>
+  <div class="card mb-4">
+  <div class="card-body">
+    <h3 class="card-title">Kusina Supreme System with Database</h3>
+    <p class="card-text">
+      A system created using Java in Apache NetBeans with a SQLite database
+      using Letos. It was designed to manage and organize information for
+      the Kusina Supreme system.
+    </p>
+  </div>
+</div>
 
-  <h3 class="mt-4 mb-2">Payroll Calculator of a Company</h3>
-  <p>
-    A payroll system created using Java in Apache NetBeans with a SQLite
-    database using Letos. It calculates employee salaries, deductions,
-    and net salary.
-  </p>
+ <div class="card mb-4">
+  <div class="card-body">
+    <h3 class="card-title">Payroll Calculator of a Company</h3>
+    <p class="card-text">
+      A payroll system created using Java in Apache NetBeans with a SQLite
+      database using Letos. It calculates employee salaries, deductions,
+      and net salary.
+    </p>
+  </div>
+</div>
 
   <h2 id="contact" class="mt-5 mb-3">Contact</h2>
 
@@ -56,17 +74,18 @@
     You can contact me through my email or GitHub.
   </p>
 
-  <p>
+ <p>
   Email:
-    <a href="mailto:seanandreipasion@gmail.com">seanandreipasion@gmail.com</a>
-  </p>
+  <a href="mailto:seanandreipasion@gmail.com" class="btn btn-outline-primary>
+    seanandreipasion@gmail.com
+  </a>
+</p>
 
-  <p>
-  GitHub:
-    <a href="https://github.com/seanpasion8" target="seanpasion8">
+<p>
+  <a href="https://github.com/seanpasion8" target="seanpasion8" class="btn btn-outline-dark">
     seanpasion8
   </a>
-  </p>
+</p>
     
    <footer class="mt-5 py-4 text-center">
      © 2026 Sean Andrei Pasion.
